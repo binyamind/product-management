@@ -1,0 +1,44 @@
+.formWarpper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid black;
+  width: 25%;
+  gap: 6px;
+}
+.formInputWarpper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 8px;
+  gap: 12px;
+}
+input textarea {
+  width: 90%;
+}
+textarea {
+  height: 75px;
+}
+.divText {
+  background-color: #fff;
+  z-index: 1000;
+  width: 110px;
+  margin: 10 auto;
+  margin-top: -20px;
+  text-align: center;
+}
+.saveButton {
+  align-self: flex-end;
+  margin-top: 36px;
+}
+.fromImageWarpper {
+  width: 120px;
+  height: 120px;
+}

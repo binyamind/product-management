@@ -1,0 +1,8 @@
+.header{
+    width: 100%;
+    height: 65px;
+    background-color:darkgray;
+}
+.header h1{
+    text-align: center;
+}

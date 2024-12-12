@@ -1,0 +1,29 @@
+.productListImage {
+  width: 80px;
+  height: 80px;
+
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex: 1 1 1;
+    cursor: pointer;
+}
+
+.imageWarpper{
+    display: flex;
+}
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    width: 75%;
+}
+
+.cardDelete{
+    display: flex;
+    align-items: last baseline;    
+    z-index: 1000;
+}
